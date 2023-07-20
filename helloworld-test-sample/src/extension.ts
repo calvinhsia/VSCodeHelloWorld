@@ -20,4 +20,10 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	context.subscriptions.push(disposable);
+	context.subscriptions.push(
+		vscode.commands.registerCommand('extension.helloWorld2', () => {
+			vscode.window.showInformationMessage('Hello World2!');
+
+		})
+	);
 }

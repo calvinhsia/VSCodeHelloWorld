@@ -1,0 +1,23 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
+    "typescript.tsc.autoDetect": "off",
+    "git.openRepositoryInParentFolders": "always",
+    "mochaExplorer.require": [
+        "ts-node/register",
+        "source-map-support/register"
+    ],
+    "mochaExplorer.files": "out/test/**/*.*test.js",
+    "mochaExplorer.watch": "out/test/**/*.*test.js",
+    // "mochaExplorer.logfile": "mochaexplorer.log",
+    "mochaExplorer.logpanel": true,
+    "mochaExplorer.launcherScript": "node_modules/mocha-explorer-launcher-scripts/vscode-test",
+    "mochaExplorer.autoload": false,
+    "mochaExplorer.ipcRole": "server",
+    "mochaExplorer.ipcTimeout": 25000,
+    "mochaExplorer.timeout": 5500, // test timeout
+    // "mochaExplorer.nodePath": null,
+    "mochaExplorer.env": {
+      "VSCODE_VERSION": "stable", // // "stable" or "insiders"
+      "ELECTRON_RUN_AS_NODE": null
+    }}

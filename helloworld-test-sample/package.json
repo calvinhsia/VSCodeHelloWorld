@@ -18,6 +18,10 @@
 			{
 				"command": "extension.helloWorld",
 				"title": "Hello World"
+			},
+			{
+				"command": "extension.helloWorld2",
+				"title": "Hello World2"
 			}
 		]
 	},
@@ -40,7 +44,9 @@
 		"eslint": "^8.26.0",
 		"glob": "^7.1.4",
 		"mocha": "^10.2.0",
+		"mocha-explorer-launcher-scripts": "^0.4.0",
 		"source-map-support": "^0.5.12",
+		"ts-node": "^10.9.1",
 		"typescript": "^5.0.2"
 	}
 }
